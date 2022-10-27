@@ -6,3 +6,2586 @@ distribution = "2201.2.0"
 
 [build-options]
 observabilityIncluded = true
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.apimgt"
+artifactId = "org.wso2.apk.apimgt.rest.api.admin.v1.common"
+version = "9.26.10-SNAPSHOT"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.fasterxml.jackson.core"
+artifactId = "jackson-databind"
+version = "2.13.1"
+
+# transitive dependency of com.fasterxml.jackson.core:jackson-databind:2.13.1
+[[platform.java11.dependency]]
+groupId = "com.fasterxml.jackson.core"
+artifactId = "jackson-annotations"
+version = "2.13.1"
+
+# transitive dependency of com.fasterxml.jackson.core:jackson-databind:2.13.1
+[[platform.java11.dependency]]
+groupId = "com.fasterxml.jackson.core"
+artifactId = "jackson-core"
+version = "2.13.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.cxf"
+artifactId = "cxf-rt-frontend-jaxrs"
+version = "3.5.3"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.apache.cxf"
+artifactId = "cxf-core"
+version = "3.5.3"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.glassfish.jaxb"
+artifactId = "jaxb-runtime"
+version = "2.3.5"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.glassfish.jaxb"
+artifactId = "txw2"
+version = "2.3.5"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "com.sun.istack"
+artifactId = "istack-commons-runtime"
+version = "3.0.12"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "com.fasterxml.woodstox"
+artifactId = "woodstox-core"
+version = "6.2.1"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.codehaus.woodstox"
+artifactId = "stax2-api"
+version = "4.2.1"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.apache.ws.xmlschema"
+artifactId = "xmlschema-core"
+version = "2.3.0"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "jakarta.xml.bind"
+artifactId = "jakarta.xml.bind-api"
+version = "2.3.3"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "jakarta.ws.rs"
+artifactId = "jakarta.ws.rs-api"
+version = "2.1.6"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "jakarta.annotation"
+artifactId = "jakarta.annotation-api"
+version = "1.3.5"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.apache.cxf"
+artifactId = "cxf-rt-transports-http"
+version = "3.5.3"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.apache.cxf"
+artifactId = "cxf-rt-security"
+version = "3.5.3"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "jakarta.xml.ws"
+artifactId = "jakarta.xml.ws-api"
+version = "2.3.3"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "jakarta.jws"
+artifactId = "jakarta.jws-api"
+version = "2.1.0"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "jakarta.xml.soap"
+artifactId = "jakarta.xml.soap-api"
+version = "1.4.2"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "jakarta.activation"
+artifactId = "jakarta.activation-api"
+version = "1.2.2"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "com.sun.activation"
+artifactId = "jakarta.activation"
+version = "1.2.2"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "com.sun.xml.messaging.saaj"
+artifactId = "saaj-impl"
+version = "1.5.3"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.jvnet.staxex"
+artifactId = "stax-ex"
+version = "1.8.3"
+
+# transitive dependency of org.apache.cxf:cxf-rt-frontend-jaxrs:3.5.3
+[[platform.java11.dependency]]
+groupId = "org.apache.geronimo.specs"
+artifactId = "geronimo-jta_1.1_spec"
+version = "1.1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.cxf"
+artifactId = "cxf-rt-rs-service-description"
+version = "3.5.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.springframework"
+artifactId = "spring-web"
+version = "5.1.13.RELEASE"
+
+# transitive dependency of org.springframework:spring-web:5.1.13.RELEASE
+[[platform.java11.dependency]]
+groupId = "org.springframework"
+artifactId = "spring-beans"
+version = "5.1.13.RELEASE"
+
+# transitive dependency of org.springframework:spring-web:5.1.13.RELEASE
+[[platform.java11.dependency]]
+groupId = "org.springframework"
+artifactId = "spring-core"
+version = "5.1.13.RELEASE"
+
+# transitive dependency of org.springframework:spring-web:5.1.13.RELEASE
+[[platform.java11.dependency]]
+groupId = "org.springframework"
+artifactId = "spring-jcl"
+version = "5.1.13.RELEASE"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.springframework"
+artifactId = "spring-context"
+version = "5.1.13.RELEASE"
+
+# transitive dependency of org.springframework:spring-context:5.1.13.RELEASE
+[[platform.java11.dependency]]
+groupId = "org.springframework"
+artifactId = "spring-aop"
+version = "5.1.13.RELEASE"
+
+# transitive dependency of org.springframework:spring-context:5.1.13.RELEASE
+[[platform.java11.dependency]]
+groupId = "org.springframework"
+artifactId = "spring-expression"
+version = "5.1.13.RELEASE"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.apimgt"
+artifactId = "org.wso2.apk.apimgt.impl"
+version = "9.26.10-SNAPSHOT"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden.wso2"
+artifactId = "woden"
+version = "1.0.0.M9-wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden"
+artifactId = "woden-all"
+version = "1.0.0.M9-wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden"
+artifactId = "woden-api"
+version = "1.0M9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden"
+artifactId = "woden-impl-dom"
+version = "1.0M9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden"
+artifactId = "woden-impl-commons"
+version = "1.0M9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.poi.wso2"
+artifactId = "poi-ooxml"
+version = "3.9.0.wso2v3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.wsdl4j"
+artifactId = "wsdl4j.wso2"
+version = "1.6.3.wso2v3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-codec"
+artifactId = "commons-codec"
+version = "1.14"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.code.gson"
+artifactId = "gson"
+version = "2.8.5"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.httpcomponents"
+artifactId = "httpmime"
+version = "4.5.10"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.httpcomponents"
+artifactId = "httpclient"
+version = "4.5.10"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.httpcomponents"
+artifactId = "httpcore"
+version = "4.4.12"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.registry"
+artifactId = "org.wso2.carbon.registry.indexing"
+version = "4.8.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.axis2.wso2"
+artifactId = "axis2"
+version = "1.6.1-wso2v76"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.registry.core"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-io.wso2"
+artifactId = "commons-io"
+version = "2.4.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.sourceforge.findbugs"
+artifactId = "annotations"
+version = "1.3.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.osgi"
+artifactId = "org.eclipse.osgi.services"
+version = "3.5.100.v20160504-1419"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ws.commons.schema.wso2"
+artifactId = "XmlSchema"
+version = "1.4.7.wso2v6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.registry.api"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.utils"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.org.bouncycastle"
+artifactId = "bcprov-jdk15on"
+version = "1.70.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.bouncycastle"
+artifactId = "bcprov-jdk15on"
+version = "1.70"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.bootstrap"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "wrapper"
+artifactId = "wrapper"
+version = "3.2.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.org.ops4j.pax.logging"
+artifactId = "pax-logging-log4j2"
+version = "2.1.0-wso2v4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.queuing"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.base"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ws.commons.axiom.wso2"
+artifactId = "axiom"
+version = "1.2.11-wso2v16"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.woodstox"
+artifactId = "woodstox-core-asl"
+version = "4.2.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.securevault"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.platform"
+artifactId = "org.eclipse.osgi"
+version = "3.14.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.igniterealtime.smack.wso2"
+artifactId = "smack"
+version = "3.0.4.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.igniterealtime.smack.wso2"
+artifactId = "smackx"
+version = "3.0.4.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.commons-fileupload"
+artifactId = "commons-fileupload"
+version = "1.3.3.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ant.wso2"
+artifactId = "ant"
+version = "1.7.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ant"
+artifactId = "ant"
+version = "1.7.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ant"
+artifactId = "ant-launcher"
+version = "1.7.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.equinox"
+artifactId = "javax.servlet"
+version = "3.0.0.v201112011016"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-lang.wso2"
+artifactId = "commons-lang"
+version = "2.6.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "javax.cache.wso2"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.registry.xboot"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.securevault"
+artifactId = "org.wso2.securevault"
+version = "1.1.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "jline"
+artifactId = "jline"
+version = "0.9.94"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.user.core"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-dbcp.wso2"
+artifactId = "commons-dbcp"
+version = "1.4.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.commons-collections"
+artifactId = "commons-collections"
+version = "3.2.2.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.crypto"
+artifactId = "org.wso2.carbon.crypto.api"
+version = "1.1.12"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.osgi"
+artifactId = "org.eclipse.osgi"
+version = "3.9.1.v20130814-1242"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.logging.correlation"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.compass-project.wso2"
+artifactId = "compass"
+version = "2.0.1.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.org.ops4j.pax.logging"
+artifactId = "pax-logging-api"
+version = "2.1.0-wso2v4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.org.apache.tomcat"
+artifactId = "jdbc-pool"
+version = "9.0.58.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.commons-httpclient"
+artifactId = "commons-httpclient"
+version = "3.1.0.wso2v6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-pool.wso2"
+artifactId = "commons-pool"
+version = "1.5.6.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-pool"
+artifactId = "commons-pool"
+version = "1.5.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.osgi"
+artifactId = "org.osgi.service.component.annotations"
+version = "1.3.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.osgi"
+artifactId = "org.osgi.annotation"
+version = "6.0.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.osgi"
+artifactId = "org.osgi.service.metatype.annotations"
+version = "1.3.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.felix"
+artifactId = "org.apache.felix.scr.ds-annotations"
+version = "1.2.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.registry"
+artifactId = "org.wso2.carbon.registry.common"
+version = "4.8.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.core"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.com.hazelcast"
+artifactId = "hazelcast"
+version = "3.12.2.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.equinox"
+artifactId = "org.eclipse.equinox.http.helper"
+version = "1.1.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.org.apache.neethi"
+artifactId = "neethi"
+version = "2.0.4.wso2v5"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.httpcomponents.wso2"
+artifactId = "httpcore"
+version = "4.4.15.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-catalina-ha"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-juli"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-tribes"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-catalina"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-jsp-api"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-el-api"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-annotations-api"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-api"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-jni"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-jaspic-api"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-util"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tomcat"
+artifactId = "tomcat-util-scan"
+version = "9.0.58"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.registry"
+artifactId = "org.wso2.carbon.registry.admin.api"
+version = "4.8.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.commons"
+artifactId = "org.wso2.carbon.ntask.core"
+version = "4.7.19"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.commons"
+artifactId = "org.wso2.carbon.ntask.common"
+version = "4.7.19"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.commons"
+artifactId = "org.wso2.carbon.remote-tasks.stub"
+version = "4.7.19"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.axis2.wso2"
+artifactId = "axis2-client"
+version = "1.6.1-wso2v76"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.axis2.wso2"
+artifactId = "axis2-json"
+version = "1.6.1-wso2v76"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-codec.wso2"
+artifactId = "commons-codec"
+version = "1.3.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.quartz-scheduler.wso2"
+artifactId = "quartz"
+version = "2.1.1.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.quartz-scheduler"
+artifactId = "quartz"
+version = "2.1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "c3p0"
+artifactId = "c3p0"
+version = "0.9.1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-beanutils.wso2"
+artifactId = "commons-beanutils"
+version = "1.8.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.feature.mgt.services"
+version = "4.5.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.feature.mgt.core"
+version = "4.5.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.p2.artifact.repository"
+version = "1.1.300.v20131211-1531"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.p2.director"
+version = "2.3.100.v20140224-1921"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.p2.metadata.repository"
+version = "1.2.100.v20131209-2144"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.simpleconfigurator"
+version = "1.1.200.v20160504-1450"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.p2.core"
+version = "2.3.0.v20131211-1531"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.p2.engine"
+version = "2.3.0.v20140506-1720"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.p2.metadata"
+version = "2.2.0.v20131211-1531"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.p2.repository"
+version = "2.3.0.v20131211-1531"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.eclipse.equinox"
+artifactId = "org.eclipse.equinox.common"
+version = "3.8.0.v20160509-1230"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.org.owasp.encoder"
+artifactId = "encoder"
+version = "1.2.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.registry"
+artifactId = "org.wso2.carbon.registry.extensions"
+version = "4.8.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.xalan"
+artifactId = "xalan"
+version = "2.7.2.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "wsdl4j.wso2"
+artifactId = "wsdl4j"
+version = "1.6.2.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "wsdl4j"
+artifactId = "wsdl4j"
+version = "1.6.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.user.api"
+version = "4.5.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.registry"
+artifactId = "org.wso2.carbon.registry.servlet"
+version = "4.8.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.ui"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.tiles.wso2"
+artifactId = "tiles-jsp"
+version = "2.0.5.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.authenticator.proxy"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.authenticator.stub"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.tomcat"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.core.common"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.equinox"
+artifactId = "org.eclipse.equinox.http.servlet"
+version = "1.1.400.v20130418-1354"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.equinox"
+artifactId = "javax.servlet.jsp"
+version = "2.2.0.v201112011158"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.core.commons.stub"
+version = "4.6.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.servlet.jsp.jstl.wso2"
+artifactId = "jstl"
+version = "1.2.1.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.org.apache.tomcat"
+artifactId = "tomcat"
+version = "9.0.58.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.abdera.wso2"
+artifactId = "abdera"
+version = "1.0.0.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.registry"
+artifactId = "org.wso2.carbon.registry.uddi"
+version = "4.8.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.osgi"
+artifactId = "org.eclipse.osgi.services"
+version = "3.3.100.v20120522-1822"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.juddi"
+artifactId = "juddi-core"
+version = "3.1.5.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.juddi"
+artifactId = "uddi-ws"
+version = "3.1.5.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.juddi"
+artifactId = "uddi-tck-base"
+version = "3.1.5.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "xmlunit"
+artifactId = "xmlunit"
+version = "1.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-configuration"
+artifactId = "commons-configuration"
+version = "1.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-beanutils"
+artifactId = "commons-beanutils-core"
+version = "1.8.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.persistence"
+artifactId = "persistence-api"
+version = "1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.hibernate"
+artifactId = "hibernate"
+version = "3.2.5.ga"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.sf.ehcache"
+artifactId = "ehcache"
+version = "1.2.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.transaction"
+artifactId = "jta"
+version = "1.0.1B"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "asm"
+artifactId = "asm-attrs"
+version = "1.5.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "antlr"
+artifactId = "antlr"
+version = "2.7.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.hibernate"
+artifactId = "hibernate-entitymanager"
+version = "3.3.1.ga"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.hibernate"
+artifactId = "hibernate-annotations"
+version = "3.3.0.ga"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.hibernate"
+artifactId = "hibernate-commons-annotations"
+version = "3.0.0.ga"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javassist"
+artifactId = "javassist"
+version = "3.3.GA"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "jboss"
+artifactId = "jboss-common-core"
+version = "2.0.4.GA"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "cglib"
+artifactId = "cglib-nodep"
+version = "2.1_3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-logging"
+artifactId = "commons-logging-api"
+version = "1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.juddi"
+artifactId = "juddi-client"
+version = "3.1.5.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.geronimo.specs"
+artifactId = "geronimo-jpa_2.0_spec"
+version = "1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.openjpa"
+artifactId = "openjpa"
+version = "2.2.0-wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-lang"
+artifactId = "commons-lang"
+version = "2.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.sourceforge.serp"
+artifactId = "serp"
+version = "1.13.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "asm"
+artifactId = "asm"
+version = "3.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-dbcp"
+artifactId = "commons-dbcp"
+version = "1.2.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.mail"
+artifactId = "mail"
+version = "1.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.activation"
+artifactId = "activation"
+version = "1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.javax.activation"
+artifactId = "activation"
+version = "1.1.1.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-fileupload"
+artifactId = "commons-fileupload"
+version = "1.1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ws.commons.axiom"
+artifactId = "axiom-api"
+version = "1.2.11-wso2v16"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ws.commons.axiom"
+artifactId = "axiom-impl"
+version = "1.2.11-wso2v16"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.geronimo.specs.wso2"
+artifactId = "geronimo-stax-api_1.0_spec"
+version = "1.0.1.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.woodstox"
+artifactId = "wstx-asl"
+version = "3.2.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "stax"
+artifactId = "stax-api"
+version = "1.0.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "jaxen"
+artifactId = "jaxen"
+version = "1.1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "dom4j"
+artifactId = "dom4j"
+version = "1.6.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "jdom"
+artifactId = "jdom"
+version = "1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "xom"
+artifactId = "xom"
+version = "1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "xalan"
+artifactId = "xalan"
+version = "2.6.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.ibm.icu"
+artifactId = "icu4j"
+version = "2.6.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "xml-apis"
+artifactId = "xml-apis"
+version = "1.4.01"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ws.commons.schema"
+artifactId = "XmlSchema"
+version = "1.4.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.derby"
+artifactId = "derby"
+version = "10.4.2.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "eclipse"
+artifactId = "validateutility"
+version = "0.95"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.wsdl.validator.wso2"
+artifactId = "wsdl-validator"
+version = "1.2.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.wadl.core"
+artifactId = "wadl-core"
+version = "1.1.6.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jvnet.ws.wadl"
+artifactId = "wadl-core"
+version = "1.1.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.glassfish.jersey.core"
+artifactId = "jersey-common"
+version = "2.5.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.ws.rs"
+artifactId = "javax.ws.rs-api"
+version = "2.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.annotation"
+artifactId = "javax.annotation-api"
+version = "1.3.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.glassfish.hk2"
+artifactId = "hk2-api"
+version = "2.2.0-b21"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.glassfish.hk2"
+artifactId = "hk2-utils"
+version = "2.2.0-b21"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.glassfish.hk2.external"
+artifactId = "javax.inject"
+version = "2.2.0-b21"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.glassfish.hk2"
+artifactId = "hk2-locator"
+version = "2.2.0-b21"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.glassfish.hk2.external"
+artifactId = "asm-all-repackaged"
+version = "2.2.0-b21"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.glassfish.hk2.external"
+artifactId = "cglib"
+version = "2.2.0-b21"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.glassfish.hk2"
+artifactId = "osgi-resource-locator"
+version = "1.0.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jsonschema2pojo"
+artifactId = "jsonschema2pojo-core"
+version = "0.4.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jvnet.ws.wadl"
+artifactId = "wadl-xslt"
+version = "1.1.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.googlecode.jsonschema2pojo"
+artifactId = "jsonschema2pojo-core"
+version = "0.3.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.jackson"
+artifactId = "jackson-mapper-asl"
+version = "1.9.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.jackson"
+artifactId = "jackson-core-asl"
+version = "1.9.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.codemodel"
+artifactId = "codemodel"
+version = "2.4.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.code.findbugs"
+artifactId = "annotations"
+version = "1.3.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.ws.rs"
+artifactId = "jsr311-api"
+version = "1.1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.localizer"
+artifactId = "localizer"
+version = "1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.localizer"
+artifactId = "comresrcgen"
+version = "1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.jersey"
+artifactId = "jersey-client"
+version = "1.12"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.jersey"
+artifactId = "jersey-core"
+version = "1.12"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.jersey"
+artifactId = "jersey-server"
+version = "1.12"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.xml.bind"
+artifactId = "jaxb-impl"
+version = "2.2.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.xml.bind"
+artifactId = "jaxb-xjc"
+version = "2.2.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "uddi"
+artifactId = "uddi4j"
+version = "1.0.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "xerces"
+artifactId = "xercesImpl"
+version = "2.8.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.core"
+artifactId = "org.eclipse.core.runtime"
+version = "3.5.0.v20090429-1800"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon"
+artifactId = "org.wso2.carbon.registry.server"
+version = "4.5.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.juddi.wso2"
+artifactId = "juddi"
+version = "3.1.5.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm.wso2"
+artifactId = "maven-scm"
+version = "1.7.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-svnexe"
+version = "1.7.0-wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-api"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-manager-plexus"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.plexus"
+artifactId = "plexus-container-default"
+version = "1.0-alpha-9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "classworlds"
+artifactId = "classworlds"
+version = "1.1-alpha-2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-svn-commons"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "regexp"
+artifactId = "regexp"
+version = "1.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.plexus"
+artifactId = "plexus-utils"
+version = "2.0.5"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-client"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-accurev"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-bazaar"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-clearcase"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-cvsexe"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-cvs-commons"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-cvsjava"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.netbeans.lib"
+artifactId = "cvsclient"
+version = "20060125"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "ch.ethz.ganymed"
+artifactId = "ganymed-ssh2"
+version = "build210"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-gitexe"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-git-commons"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-hg"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-jazz"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-local"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-perforce"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-starteam"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-synergy"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-vss"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.maven.scm"
+artifactId = "maven-scm-provider-tfs"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.ops4j.pax.logging"
+artifactId = "pax-logging-api"
+version = "1.11.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.osgi"
+artifactId = "osgi.core"
+version = "6.0.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.osgi"
+artifactId = "osgi.cmpn"
+version = "6.0.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.poi.wso2"
+artifactId = "poi-scratchpad"
+version = "3.9.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.poi"
+artifactId = "poi-scratchpad"
+version = "3.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.poi"
+artifactId = "poi"
+version = "3.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-beanutils"
+artifactId = "commons-beanutils"
+version = "1.8.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-collections"
+artifactId = "commons-collections"
+version = "3.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-digester"
+artifactId = "commons-digester"
+version = "1.8"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.org.apache.solr"
+artifactId = "solr"
+version = "8.11.1.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.rrd4j"
+artifactId = "rrd4j"
+version = "3.8.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty"
+artifactId = "jetty-client"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty"
+artifactId = "jetty-http"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty"
+artifactId = "jetty-util"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty"
+artifactId = "jetty-io"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty.http2"
+artifactId = "http2-client"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty"
+artifactId = "jetty-alpn-client"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty.http2"
+artifactId = "http2-http-client-transport"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty"
+artifactId = "jetty-alpn-java-client"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty.http2"
+artifactId = "http2-common"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.eclipse.jetty.http2"
+artifactId = "http2-hpack"
+version = "9.4.44.v20210927"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.calcite"
+artifactId = "calcite-core"
+version = "1.26.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apiguardian"
+artifactId = "apiguardian-api"
+version = "1.1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.esri.geometry"
+artifactId = "esri-geometry-api"
+version = "2.2.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.uzaygezen"
+artifactId = "uzaygezen-core"
+version = "0.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "log4j"
+artifactId = "log4j"
+version = "1.2.17"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.jayway.jsonpath"
+artifactId = "json-path"
+version = "2.4.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.minidev"
+artifactId = "json-smart"
+version = "2.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.minidev"
+artifactId = "accessors-smart"
+version = "1.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.ow2.asm"
+artifactId = "asm"
+version = "5.0.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.yahoo.datasketches"
+artifactId = "sketches-core"
+version = "0.9.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.yahoo.datasketches"
+artifactId = "memory"
+version = "0.9.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.hydromatic"
+artifactId = "aggdesigner-algorithm"
+version = "6.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.commons"
+artifactId = "commons-dbcp2"
+version = "2.6.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.commons"
+artifactId = "commons-pool2"
+version = "2.8.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.janino"
+artifactId = "commons-compiler"
+version = "3.0.11"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.janino"
+artifactId = "janino"
+version = "3.0.11"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.calcite"
+artifactId = "calcite-linq4j"
+version = "1.26.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.calcite.avatica"
+artifactId = "avatica-core"
+version = "1.20.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.calcite.avatica"
+artifactId = "avatica-metrics"
+version = "1.20.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.protobuf"
+artifactId = "protobuf-java"
+version = "3.17.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.googlecode.json-simple.wso2"
+artifactId = "json-simple"
+version = "1.1.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.pdfbox"
+artifactId = "pdfbox"
+version = "2.0.25"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.pdfbox"
+artifactId = "fontbox"
+version = "2.0.25"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-logging"
+artifactId = "commons-logging"
+version = "1.1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger"
+artifactId = "swagger-models"
+version = "1.6.5"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.slf4j"
+artifactId = "slf4j-api"
+version = "1.7.29"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger"
+artifactId = "swagger-annotations"
+version = "1.6.5"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.io.swagger"
+artifactId = "swagger-inflector"
+version = "1.0.16.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.io.swagger"
+artifactId = "swagger-inflector-oas3"
+version = "2.0.5.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.io.swagger"
+artifactId = "swagger-parser"
+version = "1.0.57.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger"
+artifactId = "swagger-parser"
+version = "1.0.57"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.io.swagger.v3"
+artifactId = "swagger-parser"
+version = "2.0.29.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger.parser.v3"
+artifactId = "swagger-parser"
+version = "2.0.29"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger.parser.v3"
+artifactId = "swagger-parser-v2-converter"
+version = "2.0.29"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger.parser.v3"
+artifactId = "swagger-parser-core"
+version = "2.0.29"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger.parser.v3"
+artifactId = "swagger-parser-v3"
+version = "2.0.29"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger.core.v3"
+artifactId = "swagger-models"
+version = "2.1.12"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger.core.v3"
+artifactId = "swagger-core"
+version = "2.1.12"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.commons"
+artifactId = "commons-lang3"
+version = "3.10"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.fasterxml.jackson.datatype"
+artifactId = "jackson-datatype-jsr310"
+version = "2.12.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger.core.v3"
+artifactId = "swagger-annotations"
+version = "2.1.12"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "jakarta.validation"
+artifactId = "jakarta.validation-api"
+version = "2.0.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.fasterxml.jackson.datatype"
+artifactId = "jackson-datatype-guava"
+version = "2.13.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.guava"
+artifactId = "guava"
+version = "31.0.1-jre"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.guava"
+artifactId = "failureaccess"
+version = "1.0.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.guava"
+artifactId = "listenablefuture"
+version = "9999.0-empty-to-avoid-conflict-with-guava"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.code.findbugs"
+artifactId = "jsr305"
+version = "3.0.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.checkerframework"
+artifactId = "checker-qual"
+version = "3.12.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.errorprone"
+artifactId = "error_prone_annotations"
+version = "2.7.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.google.j2objc"
+artifactId = "j2objc-annotations"
+version = "1.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.slf4j"
+artifactId = "slf4j-ext"
+version = "1.7.29"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.org.openapitools"
+artifactId = "openapi-generator"
+version = "4.3.1.wso2v4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.openapitools"
+artifactId = "openapi-generator"
+version = "5.3.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.jknack"
+artifactId = "handlebars"
+version = "4.2.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.jknack"
+artifactId = "handlebars-jackson2"
+version = "4.2.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.commons"
+artifactId = "commons-text"
+version = "1.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.mifmif"
+artifactId = "generex"
+version = "1.0.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "dk.brics.automaton"
+artifactId = "automaton"
+version = "1.11-8"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.curious-odd-man"
+artifactId = "rgxgen"
+version = "1.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.fasterxml.jackson.datatype"
+artifactId = "jackson-datatype-joda"
+version = "2.10.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "joda-time"
+artifactId = "joda-time"
+version = "2.9.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.joschi.jackson"
+artifactId = "jackson-datatype-threetenbp"
+version = "2.10.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.threeten"
+artifactId = "threetenbp"
+version = "1.4.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.openapitools"
+artifactId = "openapi-generator-core"
+version = "5.3.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.java.dev.jna"
+artifactId = "jna"
+version = "5.5.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.ben-manes.caffeine"
+artifactId = "caffeine"
+version = "2.8.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.slf4j"
+artifactId = "slf4j-simple"
+version = "1.7.32"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-io"
+artifactId = "commons-io"
+version = "2.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.atlassian.commonmark"
+artifactId = "commonmark"
+version = "0.11.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "xerces.wso2"
+artifactId = "xercesImpl"
+version = "2.8.1.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.fasterxml.jackson.dataformat"
+artifactId = "jackson-dataformat-yaml"
+version = "2.13.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.yaml"
+artifactId = "snakeyaml"
+version = "1.28"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.aspectj"
+artifactId = "aspectjrt"
+version = "1.9.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.graphQL"
+artifactId = "graphQL"
+version = "17.3.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.graphql-java"
+artifactId = "graphql-java"
+version = "17.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.antlr"
+artifactId = "antlr4-runtime"
+version = "4.9.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.reactivestreams"
+artifactId = "reactive-streams"
+version = "1.0.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.graphql-java"
+artifactId = "java-dataloader"
+version = "3.1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.com.squareup.okio"
+artifactId = "okio"
+version = "2.8.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jetbrains.kotlin"
+artifactId = "kotlin-stdlib"
+version = "1.4.10"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jetbrains"
+artifactId = "annotations"
+version = "13.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jetbrains.kotlin"
+artifactId = "kotlin-stdlib-common"
+version = "1.4.10"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.com.squareup.okhttp"
+artifactId = "okhttp"
+version = "4.9.3.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.squareup.okhttp3"
+artifactId = "mockwebserver"
+version = "4.9.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "junit"
+artifactId = "junit"
+version = "4.13.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.hamcrest"
+artifactId = "hamcrest-core"
+version = "1.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jetbrains.kotlin"
+artifactId = "kotlin-stdlib-jdk8"
+version = "1.4.10"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jetbrains.kotlin"
+artifactId = "kotlin-stdlib-jdk7"
+version = "1.4.10"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.github.openfeign"
+artifactId = "feign-core"
+version = "11.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.github.openfeign"
+artifactId = "feign-gson"
+version = "11.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.github.openfeign"
+artifactId = "feign-okhttp"
+version = "11.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.squareup.okhttp3"
+artifactId = "okhttp"
+version = "3.14.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.squareup.okio"
+artifactId = "okio"
+version = "1.17.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.github.openfeign"
+artifactId = "feign-slf4j"
+version = "11.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.org.everit.json"
+artifactId = "org.everit.json.schema"
+version = "1.5.0.wso2.v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.apicurio"
+artifactId = "apicurio-data-models"
+version = "1.1.5"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-validator"
+artifactId = "commons-validator"
+version = "1.7"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.damnhandy.wso2"
+artifactId = "handy-uri-templates"
+version = "2.1.6.wso2v2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.velocity"
+artifactId = "velocity-engine-core"
+version = "2.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.zaxxer"
+artifactId = "HikariCP"
+version = "5.0.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.mapstruct"
+artifactId = "mapstruct"
+version = "1.5.2.Final"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.json.wso2"
+artifactId = "json"
+version = "3.0.0.wso2v1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.json"
+artifactId = "json"
+version = "20140107"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.apimgt"
+artifactId = "org.wso2.apk.apimgt.api"
+version = "9.26.10-SNAPSHOT"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.apimgt"
+artifactId = "org.wso2.apk.apimgt.rest.api.common"
+version = "9.26.10-SNAPSHOT"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger"
+artifactId = "swagger-codegen"
+version = "2.4.11"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger"
+artifactId = "swagger-compat-spec-parser"
+version = "1.0.49"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "json-schema-validator"
+version = "2.2.8"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "json-schema-core"
+version = "1.2.8"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.mozilla"
+artifactId = "rhino"
+version = "1.7R4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.fge"
+artifactId = "uri-template"
+version = "0.9"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.mail"
+artifactId = "mailapi"
+version = "1.4.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.googlecode.libphonenumber"
+artifactId = "libphonenumber"
+version = "8.0.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.sf.jopt-simple"
+artifactId = "jopt-simple"
+version = "5.0.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.fge"
+artifactId = "json-patch"
+version = "1.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.fge"
+artifactId = "jackson-coreutils"
+version = "1.6"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.fge"
+artifactId = "msg-simple"
+version = "1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.fge"
+artifactId = "btf"
+version = "1.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger"
+artifactId = "swagger-core"
+version = "1.6.5"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "javax.validation"
+artifactId = "validation-api"
+version = "1.1.0.Final"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.samskivert"
+artifactId = "jmustache"
+version = "1.15"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-cli"
+artifactId = "commons-cli"
+version = "1.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.apimgt"
+artifactId = "org.wso2.apk.apimgt.user"
+version = "9.26.10-SNAPSHOT"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.hibernate"
+artifactId = "hibernate-validator"
+version = "5.4.3.Final"
+
+# transitive dependency of org.hibernate:hibernate-validator:5.4.3.Final
+[[platform.java11.dependency]]
+groupId = "com.fasterxml"
+artifactId = "classmate"
+version = "1.3.1"
+
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.apimgt"
+artifactId = "org.wso2.apk.apimgt.init"
+version = "9.26.10-SNAPSHOT"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.codehaus.woodstox"
+artifactId = "stax2-api"
+version = "3.1.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.geronimo.specs"
+artifactId = "geronimo-jta_1.1_spec"
+version = "1.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jboss.logging"
+artifactId = "jboss-logging"
+version = "3.3.0.Final"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "io.swagger"
+artifactId = "swagger-compat-spec-parser"
+version = "1.0.56"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "json-schema-validator"
+version = "2.2.14"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "jackson-coreutils-equivalence"
+version = "1.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "json-schema-core"
+version = "1.2.14"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "uri-template"
+version = "0.10"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.mozilla"
+artifactId = "rhino"
+version = "1.7.7.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.sun.mail"
+artifactId = "mailapi"
+version = "1.6.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.googlecode.libphonenumber"
+artifactId = "libphonenumber"
+version = "8.11.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "net.sf.jopt-simple"
+artifactId = "jopt-simple"
+version = "5.0.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "json-patch"
+version = "1.13"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "msg-simple"
+version = "1.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "btf"
+version = "1.3"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "com.github.java-json-tools"
+artifactId = "jackson-coreutils"
+version = "2.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "jakarta.xml.bind"
+artifactId = "jakarta.xml.bind-api"
+version = "2.3.2"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "jakarta.activation"
+artifactId = "jakarta.activation-api"
+version = "1.2.1"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "commons-cli"
+artifactId = "commons-cli"
+version = "1.4"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.admin.v1.common:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.carbon.apimgt"
+artifactId = "org.wso2.apk.apimgt.rest.api.util"
+version = "9.26.10-SNAPSHOT"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.rest.api.util:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.uri.template"
+artifactId = "wso2-uri-templates"
+version = "1.6.5"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.postgresql"
+artifactId = "postgresql"
+version = "42.5.0"
+
+# transitive dependency of org.wso2.carbon.apimgt:org.wso2.apk.apimgt.impl:9.26.10-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.checkerframework"
+artifactId = "checker-qual"
+version = "3.5.0"

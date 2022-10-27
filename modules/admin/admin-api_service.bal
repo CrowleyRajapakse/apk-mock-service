@@ -1,5 +1,9 @@
 import ballerina/http;
 import ballerina/io;
+import apk.org.wso2.apk.apimgt.api as api;
+// import apk.org.wso2.apk.apimgt.rest.api.admin.v1.dto as dto;
+import ballerina/lang.value;
+import apk.org.wso2.apk.apimgt.rest.api.admin.v1.common.impl as admin;
 
 configurable int ADMIN_PORT = 9443;
 
@@ -18,16 +22,37 @@ listener http:Listener ep0 = new (ADMIN_PORT);
 service /api/am/admin/v3 on ep0 {
     // resource function get throttling/policies/search(string? query) returns ThrottlePolicyDetailsList {
     // }
-    // resource function get throttling/policies/application(@http:Header string? accept = "application/json") returns ApplicationThrottlePolicyList|NotAcceptableError {
-    // }
-    // resource function post throttling/policies/application(@http:Payload ApplicationThrottlePolicy payload, @http:Header string 'content\-type = "application/json") returns CreatedApplicationThrottlePolicy|BadRequestError|UnsupportedMediaTypeError {
-    // }
+    resource function get throttling/policies/application(@http:Header string? accept = "application/json") returns ApplicationThrottlePolicyList|NotAcceptableError|error {
+        string? | api:APIManagementException appPolicyList = admin:ThrottlingCommonImpl_getApplicationThrottlePolicies();
+        if appPolicyList is string {
+            json j = check value:fromJsonString(appPolicyList);
+            ApplicationThrottlePolicyList polList = check j.cloneWithType(ApplicationThrottlePolicyList);
+            return polList;
+        }
+        io:print(appPolicyList);
+        return {};
+    }
+    resource function post throttling/policies/application(@http:Payload ApplicationThrottlePolicy payload, @http:Header string 'content\-type = "application/json") returns CreatedApplicationThrottlePolicy|BadRequestError|UnsupportedMediaTypeError|error {        
+        string | api:APIManagementException? createdAppPol = admin:ThrottlingCommonImpl_addApplicationThrottlePolicy(payload.toJsonString());
+        if createdAppPol is string {
+            json j = check value:fromJsonString(createdAppPol);
+            CreatedApplicationThrottlePolicy crPol = {body: check j.cloneWithType(ApplicationThrottlePolicy)};
+            return crPol;
+        }
+        io:println(createdAppPol);
+        return error("Error while adding Application Policy");
+    }
     // resource function get throttling/policies/application/[string policyId]() returns ApplicationThrottlePolicy|NotFoundError|NotAcceptableError {
     // }
     // resource function put throttling/policies/application/[string policyId](@http:Payload ApplicationThrottlePolicy payload, @http:Header string 'content\-type = "application/json") returns ApplicationThrottlePolicy|BadRequestError|NotFoundError {
     // }
-    // resource function delete throttling/policies/application/[string policyId]() returns http:Ok|NotFoundError {
-    // }
+    resource function delete throttling/policies/application/[string policyId]() returns http:Ok|NotFoundError|error {
+        api:APIManagementException? ex = admin:ThrottlingCommonImpl_removeApplicationThrottlePolicy(policyId, "carbon.super");
+        if ex !is api:APIManagementException {
+            return http:OK;
+        }
+        return error(ex.detail().toString());
+    }
     resource function get throttling/policies/subscription(@http:Header string? accept = "application/json") returns SubscriptionThrottlePolicyList|NotAcceptableError {
         return subPolicyList;
     }

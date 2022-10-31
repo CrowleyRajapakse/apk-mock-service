@@ -129,34 +129,17 @@ public function ThrottlingCommonImpl_addApplicationThrottlePolicy(string arg0) r
     }
 }
 
-# The function that maps to the `addCustomRule` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
-#
-# + arg0 - The `orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO` value required to map with the Java method parameter.
-# + arg1 - The `string` value required to map with the Java method parameter.
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_addCustomRule(orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO arg0, string arg1) returns orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO|orgwso2apkapimgtapi:APIManagementException {
-    handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_addCustomRule(arg0.jObj, java:fromString(arg1));
-    if (externalObj is error) {
-        orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
-        return e;
-    } else {
-        orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO newObj = new (externalObj);
-        return newObj;
-    }
-}
-
 # The function that maps to the `addDenyPolicy` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
 #
-# + arg0 - The `orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO` value required to map with the Java method parameter.
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_addDenyPolicy(orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO arg0) returns orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO|orgwso2apkapimgtapi:APIManagementException {
-    handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_addDenyPolicy(arg0.jObj);
+# + arg0 - The `string` value required to map with the Java method parameter.
+# + return - The `string` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
+public function ThrottlingCommonImpl_addDenyPolicy(string arg0) returns string?|orgwso2apkapimgtapi:APIManagementException {
+    handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_addDenyPolicy(java:fromString(arg0));
     if (externalObj is error) {
         orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
         return e;
     } else {
-        orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO newObj = new (externalObj);
-        return newObj;
+        return java:toString(externalObj);
     }
 }
 
@@ -219,31 +202,16 @@ public function ThrottlingCommonImpl_getAllAdvancedPolicy() returns orgwso2apkap
     }
 }
 
-# The function that maps to the `getAllCustomRules` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
-#
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:CustomRuleListDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_getAllCustomRules() returns orgwso2apkapimgtrestapiadminv1dto:CustomRuleListDTO|orgwso2apkapimgtapi:APIManagementException {
-    handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_getAllCustomRules();
-    if (externalObj is error) {
-        orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
-        return e;
-    } else {
-        orgwso2apkapimgtrestapiadminv1dto:CustomRuleListDTO newObj = new (externalObj);
-        return newObj;
-    }
-}
-
 # The function that maps to the `getAllDenyPolicies` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
 #
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:BlockingConditionListDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_getAllDenyPolicies() returns orgwso2apkapimgtrestapiadminv1dto:BlockingConditionListDTO|orgwso2apkapimgtapi:APIManagementException {
+# + return - The `string` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
+public function ThrottlingCommonImpl_getAllDenyPolicies() returns string?|orgwso2apkapimgtapi:APIManagementException {
     handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_getAllDenyPolicies();
     if (externalObj is error) {
         orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
         return e;
     } else {
-        orgwso2apkapimgtrestapiadminv1dto:BlockingConditionListDTO newObj = new (externalObj);
-        return newObj;
+        return java:toString(externalObj);
     }
 }
 
@@ -287,33 +255,17 @@ public function ThrottlingCommonImpl_getApplicationThrottlePolicyById(string arg
     }
 }
 
-# The function that maps to the `getCustomRuleById` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
-#
-# + arg0 - The `string` value required to map with the Java method parameter.
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_getCustomRuleById(string arg0) returns orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO|orgwso2apkapimgtapi:APIManagementException {
-    handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_getCustomRuleById(java:fromString(arg0));
-    if (externalObj is error) {
-        orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
-        return e;
-    } else {
-        orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO newObj = new (externalObj);
-        return newObj;
-    }
-}
-
 # The function that maps to the `getDenyPolicyById` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
 #
 # + arg0 - The `string` value required to map with the Java method parameter.
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_getDenyPolicyById(string arg0) returns orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO|orgwso2apkapimgtapi:APIManagementException {
+# + return - The `string` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
+public function ThrottlingCommonImpl_getDenyPolicyById(string arg0) returns string?|orgwso2apkapimgtapi:APIManagementException {
     handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_getDenyPolicyById(java:fromString(arg0));
     if (externalObj is error) {
         orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
         return e;
     } else {
-        orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO newObj = new (externalObj);
-        return newObj;
+        return java:toString(externalObj);
     }
 }
 
@@ -375,18 +327,6 @@ public function ThrottlingCommonImpl_removeApplicationThrottlePolicy(string arg0
     }
 }
 
-# The function that maps to the `removeCustomRule` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
-#
-# + arg0 - The `string` value required to map with the Java method parameter.
-# + return - The `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_removeCustomRule(string arg0) returns orgwso2apkapimgtapi:APIManagementException? {
-    error|() externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_removeCustomRule(java:fromString(arg0));
-    if (externalObj is error) {
-        orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
-        return e;
-    }
-}
-
 # The function that maps to the `removeDenyPolicy` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
 #
 # + arg0 - The `string` value required to map with the Java method parameter.
@@ -415,15 +355,14 @@ public function ThrottlingCommonImpl_removeSubscriptionThrottlePolicy(string arg
 # The function that maps to the `throttlingPolicySearch` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
 #
 # + arg0 - The `string` value required to map with the Java method parameter.
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:ThrottlePolicyDetailsListDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_throttlingPolicySearch(string arg0) returns orgwso2apkapimgtrestapiadminv1dto:ThrottlePolicyDetailsListDTO|orgwso2apkapimgtapi:APIManagementException {
+# + return - The `string` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
+public function ThrottlingCommonImpl_throttlingPolicySearch(string arg0) returns string?|orgwso2apkapimgtapi:APIManagementException {
     handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_throttlingPolicySearch(java:fromString(arg0));
     if (externalObj is error) {
         orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
         return e;
     } else {
-        orgwso2apkapimgtrestapiadminv1dto:ThrottlePolicyDetailsListDTO newObj = new (externalObj);
-        return newObj;
+        return java:toString(externalObj);
     }
 }
 
@@ -458,35 +397,18 @@ public function ThrottlingCommonImpl_updateApplicationThrottlePolicy(string arg0
     }
 }
 
-# The function that maps to the `updateCustomRule` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
-#
-# + arg0 - The `string` value required to map with the Java method parameter.
-# + arg1 - The `orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO` value required to map with the Java method parameter.
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_updateCustomRule(string arg0, orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO arg1) returns orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO|orgwso2apkapimgtapi:APIManagementException {
-    handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_updateCustomRule(java:fromString(arg0), arg1.jObj);
-    if (externalObj is error) {
-        orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
-        return e;
-    } else {
-        orgwso2apkapimgtrestapiadminv1dto:CustomRuleDTO newObj = new (externalObj);
-        return newObj;
-    }
-}
-
 # The function that maps to the `updateDenyPolicy` method of `org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl`.
 #
 # + arg0 - The `string` value required to map with the Java method parameter.
-# + arg1 - The `orgwso2apkapimgtrestapiadminv1dto:BlockingConditionStatusDTO` value required to map with the Java method parameter.
-# + return - The `orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
-public function ThrottlingCommonImpl_updateDenyPolicy(string arg0, orgwso2apkapimgtrestapiadminv1dto:BlockingConditionStatusDTO arg1) returns orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO|orgwso2apkapimgtapi:APIManagementException {
-    handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_updateDenyPolicy(java:fromString(arg0), arg1.jObj);
+# + arg1 - The `string` value required to map with the Java method parameter.
+# + return - The `string` or the `orgwso2apkapimgtapi:APIManagementException` value returning from the Java mapping.
+public function ThrottlingCommonImpl_updateDenyPolicy(string arg0, string arg1) returns string?|orgwso2apkapimgtapi:APIManagementException {
+    handle|error externalObj = org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_updateDenyPolicy(java:fromString(arg0), java:fromString(arg1));
     if (externalObj is error) {
         orgwso2apkapimgtapi:APIManagementException e = error orgwso2apkapimgtapi:APIManagementException(orgwso2apkapimgtapi:APIMANAGEMENTEXCEPTION, externalObj, message = externalObj.message());
         return e;
     } else {
-        orgwso2apkapimgtrestapiadminv1dto:BlockingConditionDTO newObj = new (externalObj);
-        return newObj;
+        return java:toString(externalObj);
     }
 }
 
@@ -517,16 +439,10 @@ function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_
     paramTypes: ["java.lang.String"]
 } external;
 
-function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_addCustomRule(handle arg0, handle arg1) returns handle|error = @java:Method {
-    name: "addCustomRule",
-    'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
-    paramTypes: ["org.wso2.apk.apimgt.rest.api.admin.v1.dto.CustomRuleDTO", "java.lang.String"]
-} external;
-
 function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_addDenyPolicy(handle arg0) returns handle|error = @java:Method {
     name: "addDenyPolicy",
     'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
-    paramTypes: ["org.wso2.apk.apimgt.rest.api.admin.v1.dto.BlockingConditionDTO"]
+    paramTypes: ["java.lang.String"]
 } external;
 
 function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_addSubscriptionThrottlePolicy(handle arg0) returns handle|error = @java:Method {
@@ -559,12 +475,6 @@ function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_
     paramTypes: []
 } external;
 
-function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_getAllCustomRules() returns handle|error = @java:Method {
-    name: "getAllCustomRules",
-    'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
-    paramTypes: []
-} external;
-
 function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_getAllDenyPolicies() returns handle|error = @java:Method {
     name: "getAllDenyPolicies",
     'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
@@ -593,12 +503,6 @@ function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_
     name: "getClass",
     'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
     paramTypes: []
-} external;
-
-function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_getCustomRuleById(handle arg0) returns handle|error = @java:Method {
-    name: "getCustomRuleById",
-    'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
-    paramTypes: ["java.lang.String"]
 } external;
 
 function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_getDenyPolicyById(handle arg0) returns handle|error = @java:Method {
@@ -649,12 +553,6 @@ function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_
     paramTypes: ["java.lang.String", "java.lang.String"]
 } external;
 
-function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_removeCustomRule(handle arg0) returns error? = @java:Method {
-    name: "removeCustomRule",
-    'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
-    paramTypes: ["java.lang.String"]
-} external;
-
 function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_removeDenyPolicy(handle arg0) returns error? = @java:Method {
     name: "removeDenyPolicy",
     'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
@@ -685,16 +583,10 @@ function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_
     paramTypes: ["java.lang.String", "java.lang.String"]
 } external;
 
-function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_updateCustomRule(handle arg0, handle arg1) returns handle|error = @java:Method {
-    name: "updateCustomRule",
-    'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
-    paramTypes: ["java.lang.String", "org.wso2.apk.apimgt.rest.api.admin.v1.dto.CustomRuleDTO"]
-} external;
-
 function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_updateDenyPolicy(handle arg0, handle arg1) returns handle|error = @java:Method {
     name: "updateDenyPolicy",
     'class: "org.wso2.apk.apimgt.rest.api.admin.v1.common.impl.ThrottlingCommonImpl",
-    paramTypes: ["java.lang.String", "org.wso2.apk.apimgt.rest.api.admin.v1.dto.BlockingConditionStatusDTO"]
+    paramTypes: ["java.lang.String", "java.lang.String"]
 } external;
 
 function org_wso2_apk_apimgt_rest_api_admin_v1_common_impl_ThrottlingCommonImpl_updateSubscriptionThrottlePolicy(handle arg0, handle arg1) returns handle|error = @java:Method {

@@ -125,13 +125,13 @@ service /api/am/admin/v3 on ep0 {
     // }
     // resource function delete throttling/policies/custom/[string ruleId]() returns http:Ok|NotFoundError {
     // }
-    resource function get throttling/policies/advanced(@http:Header string? accept = "application/json") returns AdvancedThrottlePolicyList|NotAcceptableError {
-        return advancedPolicyList;
-    }
-    resource function post throttling/policies/advanced(@http:Payload AdvancedThrottlePolicy payload, @http:Header string 'content\-type = "application/json") returns CreatedAdvancedThrottlePolicy|BadRequestError|UnsupportedMediaTypeError {
-        io:println("Created Advanced Policy: " + payload.get("policyName").toString());
-        return {body: policyCreated};
-    }
+    // resource function get throttling/policies/advanced(@http:Header string? accept = "application/json") returns AdvancedThrottlePolicyList|NotAcceptableError {
+    //     return advancedPolicyList;
+    // }
+    // resource function post throttling/policies/advanced(@http:Payload AdvancedThrottlePolicy payload, @http:Header string 'content\-type = "application/json") returns CreatedAdvancedThrottlePolicy|BadRequestError|UnsupportedMediaTypeError {
+    //     io:println("Created Advanced Policy: " + payload.get("policyName").toString());
+    //     return {body: policyCreated};
+    // }
     // resource function get throttling/policies/advanced/[string policyId]() returns AdvancedThrottlePolicy|NotFoundError|NotAcceptableError {
     // }
     // resource function put throttling/policies/advanced/[string policyId](@http:Payload AdvancedThrottlePolicy payload, @http:Header string 'content\-type = "application/json") returns AdvancedThrottlePolicy|BadRequestError|NotFoundError {
@@ -142,16 +142,54 @@ service /api/am/admin/v3 on ep0 {
     // }
     // resource function post throttling/policies/'import(boolean? overwrite, @http:Payload json payload) returns http:Ok|ForbiddenError|NotFoundError|ConflictError|InternalServerErrorError {
     // }
-    // resource function get throttling/'deny\-policies(@http:Header string? accept = "application/json") returns BlockingConditionList|NotAcceptableError {
-    // }
-    // resource function post throttling/'deny\-policies(@http:Payload BlockingCondition payload, @http:Header string 'content\-type = "application/json") returns CreatedBlockingCondition|BadRequestError|UnsupportedMediaTypeError {
-    // }
-    // resource function get throttling/'deny\-policy/[string conditionId]() returns BlockingCondition|NotFoundError|NotAcceptableError {
-    // }
-    // resource function delete throttling/'deny\-policy/[string conditionId]() returns http:Ok|NotFoundError {
-    // }
-    // resource function patch throttling/'deny\-policy/[string conditionId](@http:Payload BlockingConditionStatus payload, @http:Header string 'content\-type = "application/json") returns BlockingCondition|BadRequestError|NotFoundError {
-    // }
+    resource function get throttling/'deny\-policies(@http:Header string? accept = "application/json") returns BlockingConditionList|NotAcceptableError|error {
+        string | api:APIManagementException? conditionList = admin:ThrottlingCommonImpl_getAllDenyPolicies();
+        if conditionList is string {
+            json j = check value:fromJsonString(conditionList);
+            BlockingConditionList list = check j.cloneWithType(BlockingConditionList);
+            return list;
+        }
+        io:println(conditionList);
+        return error("Error while getting block conditions");
+    }
+    resource function post throttling/'deny\-policies(@http:Payload BlockingCondition payload, @http:Header string 'content\-type = "application/json") returns CreatedBlockingCondition|BadRequestError|UnsupportedMediaTypeError|error {
+        string | api:APIManagementException? createdDenyPol = admin:ThrottlingCommonImpl_addDenyPolicy(payload.toJsonString());
+        if createdDenyPol is string {
+            json j = check value:fromJsonString(createdDenyPol);
+            CreatedBlockingCondition condition = {body: check j.cloneWithType(BlockingCondition)};
+            return condition;
+        }
+        io:println(createdDenyPol);
+        return error("Error while adding deny policy");
+    }
+    resource function get throttling/'deny\-policy/[string conditionId]() returns BlockingCondition|NotFoundError|NotAcceptableError|error {
+        string | api:APIManagementException? denyPolicy = admin:ThrottlingCommonImpl_getDenyPolicyById(conditionId);
+        if denyPolicy is string {
+            json j = check value:fromJsonString(denyPolicy);
+            BlockingCondition condition = check j.cloneWithType(BlockingCondition);
+            return condition;
+        }
+        io:println(denyPolicy);
+        return error("Error while getting deny policy");
+    }
+    resource function delete throttling/'deny\-policy/[string conditionId]() returns http:Ok|NotFoundError|error {
+        api:APIManagementException? ex = admin:ThrottlingCommonImpl_removeDenyPolicy(conditionId);
+        if ex !is api:APIManagementException {
+            return http:OK;
+        }
+        io:println(ex);
+        return error("Error while deleting deny policy");
+    }
+    resource function patch throttling/'deny\-policy/[string conditionId](@http:Payload BlockingConditionStatus payload, @http:Header string 'content\-type = "application/json") returns BlockingCondition|BadRequestError|NotFoundError|error {
+        string | api:APIManagementException? updatedPolicy = admin:ThrottlingCommonImpl_updateDenyPolicy(conditionId, payload.toJsonString());
+        if updatedPolicy is string {
+            json j = check value:fromJsonString(updatedPolicy);
+            BlockingCondition condition = check j.cloneWithType(BlockingCondition);
+            return condition;
+        }
+        io:println(updatedPolicy);
+        return error("Error while updating deny policy");
+    }
     // resource function get applications(string? user, string? name, string? tenantDomain, int 'limit = 25, int offset = 0, @http:Header string? accept = "application/json", string sortBy = "name", string sortOrder = "asc") returns ApplicationList|BadRequestError|NotAcceptableError {
     // }
     // resource function get applications/[string applicationId]() returns Application|BadRequestError|NotFoundError|NotAcceptableError {

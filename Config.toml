@@ -7,13 +7,24 @@ DEVPORTAL_PORT = 9444
 [wso2.apk.admin]
 ADMIN_PORT = 9445
 
+[wso2.apk.devportal.datasourceConfiguration]
+description = "APK DB"
+url = "jdbc:postgresql://localhost:5432/apkdb"
+username = "postgres"
+password = "wso2carbon"
+validationTimeout = 30000
+testQuery = "SELECT 1"
+
 [wso2.apk.admin.datasourceConfiguration]
 description = "APK DB"
 url = "jdbc:postgresql://localhost:5432/apkdb"
-username = "admin"
-password = "admin"
+username = "postgres"
+password = "wso2carbon"
 validationTimeout = 30000
 testQuery = "SELECT 1"
+
+[wso2.apk.devportal.throttleConfig]
+enableUnlimitedTier = true
 
 [wso2.apk.admin.throttleConfig]
 enableUnlimitedTier = true

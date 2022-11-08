@@ -65,7 +65,7 @@ dependencies = [
 [[package]]
 org = "ballerina"
 name = "http"
-version = "2.4.1"
+version = "2.4.3"
 dependencies = [
 	{org = "ballerina", name = "auth"},
 	{org = "ballerina", name = "cache"},
@@ -318,8 +318,12 @@ modules = [
 	{org = "wso2", packageName = "apk", moduleName = "apk.java.lang"},
 	{org = "wso2", packageName = "apk", moduleName = "apk.java.util"},
 	{org = "wso2", packageName = "apk", moduleName = "apk.org.wso2.apk.apimgt.api"},
+	{org = "wso2", packageName = "apk", moduleName = "apk.org.wso2.apk.apimgt.api.model"},
 	{org = "wso2", packageName = "apk", moduleName = "apk.org.wso2.apk.apimgt.rest.api.admin.v1.common.impl"},
 	{org = "wso2", packageName = "apk", moduleName = "apk.org.wso2.apk.apimgt.rest.api.admin.v1.dto"},
+	{org = "wso2", packageName = "apk", moduleName = "apk.org.wso2.apk.apimgt.rest.api.devportal.v1.common.impl"},
+	{org = "wso2", packageName = "apk", moduleName = "apk.org.wso2.apk.apimgt.rest.api.devportal.v1.common.models"},
+	{org = "wso2", packageName = "apk", moduleName = "apk.org.wso2.apk.apimgt.rest.api.devportal.v1.dto"},
 	{org = "wso2", packageName = "apk", moduleName = "apk.org.wso2.apk.init"},
 	{org = "wso2", packageName = "apk", moduleName = "apk.publisher"}
 ]

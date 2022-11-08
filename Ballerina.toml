@@ -1048,3 +1048,56 @@ version = "1.2.1"
 groupId = "commons-cli"
 artifactId = "commons-cli"
 version = "1.4"
+
+[[platform.java11.dependency]]
+groupId = "org.wso2.apk"
+artifactId = "org.wso2.apk.apimgt.rest.api.devportal.v1.common"
+version = "0.1.0-SNAPSHOT"
+
+# transitive dependency of org.wso2.apk:org.wso2.apk.apimgt.impl:0.1.0-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden.wso2"
+artifactId = "woden"
+version = "1.0.0.M9-wso2v1"
+
+# transitive dependency of org.wso2.apk:org.wso2.apk.apimgt.impl:0.1.0-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden"
+artifactId = "woden-all"
+version = "1.0.0.M9-wso2v1"
+
+# transitive dependency of org.wso2.apk:org.wso2.apk.apimgt.impl:0.1.0-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden"
+artifactId = "woden-api"
+version = "1.0M9"
+
+# transitive dependency of org.wso2.apk:org.wso2.apk.apimgt.impl:0.1.0-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.ws.commons.schema"
+artifactId = "XmlSchema"
+version = "1.4.7"
+
+# transitive dependency of org.wso2.apk:org.wso2.apk.apimgt.impl:0.1.0-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden"
+artifactId = "woden-impl-dom"
+version = "1.0M9"
+
+# transitive dependency of org.wso2.apk:org.wso2.apk.apimgt.impl:0.1.0-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.apache.woden"
+artifactId = "woden-impl-commons"
+version = "1.0M9"
+
+# transitive dependency of org.wso2.apk:org.wso2.apk.apimgt.impl:0.1.0-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.wso2.orbit.com.nimbusds"
+artifactId = "nimbus-jose-jwt"
+version = "7.9.0.wso2v1"
+
+# transitive dependency of org.wso2.apk:org.wso2.apk.apimgt.rest.api.util:0.1.0-SNAPSHOT
+[[platform.java11.dependency]]
+groupId = "org.jboss.logging"
+artifactId = "jboss-logging"
+version = "3.3.0.Final"
